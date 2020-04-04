@@ -231,11 +231,15 @@ body {
     font-weight: bold;
 }
 
+.dev li{
+  display: inline-block;
+}
+
 
 .contact{
     padding-top: 50px;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-        url(img/footer.png);
+        url(img/footer  );
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -262,6 +266,15 @@ body {
 
 .contact .btn:focus{
     box-shadow: none !important;
+}
+
+.contact a{
+  color: #fff;
+}
+
+.contact a:hover{
+  color: #fff;
+
 }
 
 .contact .btn:hover{
