@@ -36,6 +36,9 @@ form.addEventListener("submit", (e) => {
   } else {
     messages.push("Last Name can not contain special character");
   }
+  if (email.value == "" || email.value == null) {
+    messages.push("Email is requred");
+  }
 
   if (password.value.search(/[0-9]/) == -1) {
     messages.push("Password needs atleast 1 numeric character");
